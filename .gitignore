@@ -1,0 +1,26 @@
+# 忽略 macOS 系统自带的文件
+.DS_Store
+
+# 忽略临时编辑文件
+*.swp
+*.swo
+
+# 忽略日志文件
+*.log
+
+# 忽略备份文件
+*~
+
+# 忽略 idea 和 vscode 配置（如果你用这些 IDE）
+.idea/
+.vscode/
+
+# 忽略 node_modules（如果是 JS 项目）
+node_modules/
+
+# 忽略编译输出（如果是 C/C++/Java）
+*.class
+*.o
+*.out
+bin/
+build/
